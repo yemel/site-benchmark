@@ -1,0 +1,65 @@
+/* Special grid styles
+-------------------------------------------------- */
+.show-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.show-grid [class*="span"] {
+  background-color: #eee;
+  text-align: center;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  min-height: 30px;
+  line-height: 30px;
+}
+.show-grid:hover [class*="span"] {
+  background: #ddd;
+}
+.show-grid .show-grid {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.show-grid .show-grid [class*="span"] {
+  background-color: #ccc;
+}
+
+/* General Styles
+-------------------------------------------------- */
+body {
+  background-image: url('../img/bg.png');
+}
+
+h1 {
+  font-family: 'Oleo Script', cursive;
+  text-shadow: 2px 2px 2px #6E6E6E;
+  color: #FAFAFA;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oleo Script', cursive;
+  text-shadow: 2px 2px 2px #6E6E6E;
+  color: #FAFAFA;
+}
+
+header {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.black-layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.black-layer p, .black-layer h3, .black-layer div {
+  color: white;
+}
+
+.right {
+  float: right;
+}
