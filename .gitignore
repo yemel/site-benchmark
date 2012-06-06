@@ -1,5 +1,6 @@
-tmp/*
-config/database.php
-app/tmp/*
-app/config/database.php
-!empty
+# CakePHP ignores
+php-version/app/tmp
+php-version/lib/Cake/Console/Templates/skel/tmp/
+php-version/app/Config/database.php
+.DS_Store
+php-version/!empty
